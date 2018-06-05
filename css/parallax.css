@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+#canvas {
+  width: 100%;
+  background: linear-gradient(#66FFFD, #fff);
+  transfrom: translate(-50%,-50%);
+  overflow: hidden;
+  height: 10000px;
+}
+
+#logo {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  margin-top: -10px;
+  text-align: center;
+}
+
+#halfdomeimg {
+  height:350px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 250px;
+  background-attachment: fixed;
+}
+
+.standard, .banner {
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+}

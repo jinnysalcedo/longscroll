@@ -1,0 +1,490 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  perspective: 1px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+header {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  background-color: black;
+  height: 90px;
+  margin-top: -25px;
+  opacity: .4;
+  padding-top: 20px;
+}
+
+nav, nav ul, nav li, nav a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+  text-align: center;
+}
+
+figcaption {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.5em;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4em;
+  text-align: left;
+  line-height: 30px;
+}
+
+h1 {
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  font-family: 'Lato', sans-serif;
+  font-weight: ;
+  font-size: 5.3em;
+  color: #fff;
+}
+
+h2 {
+  position: absolute;
+  top: 460px;
+  left: 60px;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 3.8em;
+  color: #fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.button {
+    position: absolute;
+    top: 675px;
+    left: 600px;
+    width: 150px;
+    background-color: #0a5427 ;
+    opacity: .5;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    /* border-radius: 80%; */
+  }
+
+  .button:hover  {
+      position: absolute;
+      top: 675px;
+      left: 600px;
+      width: 150px;
+      background-color:  ;
+      opacity: .5;
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      /* border-radius: 80%; */
+    }
+
+
+  .explore {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: white;
+    opacity: 1;
+  }
+
+
+#canvas{
+  position: relative;
+  height: 10900px;
+  width: 100%;
+  margin: 0 auto;
+  /* background: linear-gradient(#fff, #000); */
+}
+
+/* ///// ID FOR BIG HALF DOME IMAGE ///  */
+#head {
+  margin: 0;
+  background-attachment: fixed;
+
+}
+
+#curry {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+}
+
+
+/* //// LOGO BANNER POSITIONING AND SIZE ////  */
+ .banner {
+  position: absolute;
+  top: -10px;
+  left: 350px;
+  width: 700px;
+  height: 300px;
+  text-align: center;
+}
+
+
+/* //// IMG 2403 /////  */
+.tents {
+  position: absolute;
+  top: 900px;
+  left: 40px;
+  height: 800px;
+  width: 50%;
+  background-attachment: fixed;
+  border-radius: 50%;
+
+
+}
+
+#tents {
+  position: absolute;
+  top: 1150px;
+  left: 800px;
+}
+
+#tentz {
+  position: absolute;
+  top: 1220px;
+  left: 800px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4em;
+  text-align: left;
+}
+
+#line1 {
+  margin-top: 2px;
+  width: 590px;
+}
+
+/* //// IMG 2572 CLASSES /////  */
+.trail {
+  position: absolute;
+  top: 1800px;
+  left: 650px;
+  height: 800px;
+  width: 50%;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+#trails {
+  position: absolute;
+  top: 2050px;
+  left: 75px;
+}
+
+#trailz {
+  position: absolute;
+  top: 2120px;
+  left: 75px;
+}
+
+#line2 {
+  margin-top: 2px;
+  width: 530px;
+}
+
+/* //// IMAGE 2460 ////  */
+.rocks {
+  position: absolute;
+  top: 2700px;
+  left: 50px;
+  height: 800px;
+  width: 50%;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+#rocks {
+  position: absolute;
+  top: 2950px;
+  left: 810px;
+}
+
+#rockz {
+  position: absolute;
+  top: 3020px;
+  left: 810px;
+}
+
+#line3 {
+  margin-top: 2px;
+  width: 550px;
+}
+
+/* ///// IMG 2430 /////  */
+.woody {
+  position: absolute;
+  top: 3650px;
+  left: 650px;
+  height: 800px;
+  width: 50%;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+#woody {
+  position: absolute;
+  top: 3900px;
+  left: 75px;
+}
+
+#woodyz {
+  position: absolute;
+  top: 3975px;
+  left: 75px;
+}
+
+#line4 {
+  margin-top: 2px;
+  width: 500px;
+}
+
+
+/* /// IMAGE 2458 ////  */
+.wooden {
+  position: absolute;
+  top: 4600px;
+  left: 50px;
+  height: 800px;
+  width: 50%;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+#wooden {
+  position: absolute;
+  top: 4900px;
+  left: 810px;
+}
+
+#woodens {
+  position: absolute;
+  top: 4980px;
+  left: 810px;
+}
+
+#line5 {
+  margin-top: 2px;
+  width: 550px;
+}
+
+/* /// IMG 2430 DOME IMAGES ////  */
+.dome {
+  position: absolute;
+  top: 5500px;
+  left: 650px;
+  height: 800px;
+  width: 50%;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+#dome {
+  position: absolute;
+  top: 5700px;
+  left: 50px;
+}
+
+#domes {
+  position: absolute;
+  top: 5775px;
+  left: 50px;
+}
+
+#line6{
+  margin-top: 2px;
+  width: 590px;
+}
+
+/* //// IMG 2547 ////  */
+.darkdome {
+  position: absolute;
+  top: 6400px;
+  left: 50px;
+  height: 800px;
+  width: 50%;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+#darkdome {
+  position: absolute;
+  top: 6700px;
+  left: 810px;
+}
+
+#darkdomes {
+  position: absolute;
+  top: 6770px;
+  left: 810px;
+}
+
+#line7 {
+  margin-top: 2px;
+  width: 550px;
+}
+
+/* /// IMAGE 2592 ////  */
+.riverdome {
+  position: absolute;
+  top: 7300px;
+  left: 680px;
+  height: 800px;
+  width: 50%;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+#riverdome {
+  position: absolute;
+  top: 7450px;
+  left: 50px;
+}
+
+#riverdomes {
+  position: absolute;
+  top: 7520px;
+  left: 50px;
+}
+
+#line8 {
+  margin-top: 2px;
+  width: 590px;
+}
+
+/* //// IMAGE 2496 ////  */
+.waterfall {
+  position: absolute;
+  top: 8150px;
+  left: 50px;
+  height: 800px;
+  width: 50%;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+#waterfall {
+  position: absolute;
+  top: 8420px;
+  left: 810px;
+}
+
+#waterfalls {
+  position: absolute;
+  top: 8490px;
+  left: 810px;
+}
+
+#line9 {
+  margin-top: 2px;
+  width: 590px;
+}
+
+/* //// IMG 2539 ////  */
+.dine {
+  position: absolute;
+  top: 9050px;
+  left: 650px;
+  height: 800px;
+  width: 50%;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+#dining {
+  position: absolute;
+  top: 9200px;
+  left: 50px;
+}
+
+#dinings {
+  position: absolute;
+  top: 9270px;
+  left: 50px;
+}
+
+#line10 {
+  margin-top: 2px;
+  width: 550px;
+}
+
+/* //// IMG 2670 ///  */
+.farewell {
+  position: absolute;
+  top: 9950px;
+  left: 40px;
+  height: 800px;
+  width: 50%;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+#farewell {
+  position: absolute;
+  top: 10200px;
+  left: 795px;
+}
+
+#farewells {
+  position: absolute;
+  top: 10270px;
+  left: 795px;
+}
+
+#line11 {
+  margin-top: 2px;
+  width: 610px;
+}
+
+#click {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+/* //// CLASS FOR IMAGES /////  */
+.standard {
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+}
+
+.align-left {
+    float:left;
+    margin-right:20px;
+  }
+  .align-right {
+    float:right;
+    margin-left:20px;
+  }
+  .slide-in {
+    opacity:0;
+    transition:all .5s;
+  }
+  .align-left.slide-in {
+    transform:translateX(-50%) scale(1);
+  }
+  .align-right.slide-in {
+    transform:translateX(50%) scale(1);
+  }
+  .slide-in.active {
+    opacity:1;
+    transform:translateX(0%) scale(1);
+  }
