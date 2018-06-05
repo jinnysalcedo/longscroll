@@ -5,6 +5,7 @@ body {
   perspective: 1px;
   overflow-y: scroll;
   overflow-x: hidden;
+
 }
 
 header {
@@ -42,7 +43,7 @@ p {
 h1 {
   position: absolute;
   top: 500px;
-  left: 500px;
+  left: 540px;
   font-family: 'Lato', sans-serif;
   font-weight: ;
   font-size: 5.3em;
@@ -52,7 +53,7 @@ h1 {
 h2 {
   position: absolute;
   top: 460px;
-  left: 60px;
+  left: 80px;
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
   font-size: 3.8em;
@@ -62,6 +63,8 @@ h2 {
 .bold {
   font-weight: bold;
 }
+
+
 
 .button {
     position: absolute;
@@ -113,6 +116,7 @@ h2 {
   width: 100%;
   margin: 0 auto;
   /* background: linear-gradient(#fff, #000); */
+  background: #dddddd;
 }
 
 /* ///// ID FOR BIG HALF DOME IMAGE ///  */
