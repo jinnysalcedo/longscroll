@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/scrolling.css">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100|Oswald" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+
 
   <title>Beauties of Yosemite</title>
 <style>
@@ -271,25 +271,25 @@
 
  // DEBOUNCE FUNCTION ENDS //
 
+// STATEMENTS COMMENTED OUT BELOW ARE IN ORDER OF MY JAVASCRIPT CODE/FUNCTION
+ // querySelectorAll will grab the everything with the class 'slide-in'
+ // slide will run everytime the browser is scrolled
  // forEach() method calls a  function once for each element in an array in order
- // (e) is short for Event
+ // pageYOffset = number of pixels scrolled up and down on a browser window
+ // if else statements for function to run
  // => "=" equals the input, ">" equals the output
-
+ //innerHeight measures inside of browser window
+// bottom count of the image, this will allow the image to slide in at the very bottom
+// slidingImage.height = height of the image sliding in
+// offsetTop = returns the top of the position
+// .add and .remove are adding a class of active/remove when being scrolled at a certain pixel count
       const slidingImages = document.querySelectorAll('.slide-in');
-      // querySelectorAll will grab the everything with the class 'slide-in'
-      // slide will run everytime the browser is scrolled
       function slide() {
         slidingImages.forEach(slidingImage => {
-          // halfway count through the image
-          const slideInAt = (window.scrollY + window.innerHeight) - slidingImage.height / 4;
-          // bottom count of the image
-          // offsetTop = returns the top of the position
-          // slidingImage.height = height of the image
+          const slideInAt = (window.pageYOffset + window.innerHeight) - slidingImage.height / 4;
           const bottomImage = slidingImage.offsetTop + slidingImage.height;
-
           const halfImage = slideInAt > slidingImage.offsetTop;
-          const notScrolled = window.scrollY < bottomImage;
-
+          const notScrolled = window.pageYOffset < bottomImage;
           if (halfImage && notScrolled) {
             slidingImage.classList.add('active');
           } else {
@@ -299,12 +299,5 @@
       }
       window.addEventListener('scroll', debounce(slide));
     </script>
-
-
-
-
-
-
-
 </body>
 </html>
