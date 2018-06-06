@@ -459,8 +459,15 @@ h2 {
 }
 
 #click {
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: bold;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
 }
 
 /* //// CLASS FOR IMAGES /////  */
